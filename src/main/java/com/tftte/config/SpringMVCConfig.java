@@ -40,6 +40,7 @@ public class SpringMVCConfig implements WebMvcConfigurer {
 
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
-        registry.jsp("/", ".html");
+        registry.jsp("/", ".jsp");
     }
+
 }

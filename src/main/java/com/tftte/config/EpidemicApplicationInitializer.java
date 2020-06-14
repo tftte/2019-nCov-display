@@ -22,4 +22,5 @@ public class EpidemicApplicationInitializer extends AbstractAnnotationConfigDisp
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
+
 }

@@ -29,4 +29,5 @@ public class SpringConfig {
         manager.setDataSource(dataSource);
         return manager;
     }
+
 }
