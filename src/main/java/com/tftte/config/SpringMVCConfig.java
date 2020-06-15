@@ -17,7 +17,7 @@ import org.springframework.web.servlet.config.annotation.*;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(value = "com.tftte", includeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Controller.class))
+@ComponentScan(basePackages = "com.tftte", includeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Controller.class))
 public class SpringMVCConfig implements WebMvcConfigurer {
 
     @Autowired
