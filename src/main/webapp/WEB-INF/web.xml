@@ -7,8 +7,7 @@
 
 
     <welcome-file-list>
-        <welcome-file>epidemic.html</welcome-file>
+        <welcome-file>epidemic.jsp</welcome-file>
     </welcome-file-list>
-
 
 </web-app>
