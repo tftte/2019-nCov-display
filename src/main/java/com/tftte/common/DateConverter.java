@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * @Author: tftte
  * @Date: 2020/6/14 21:32
- * @Description:
+ * @Description: 日期转换器(将界面中拿到的字符串转换为日期)
  */
 @Component
 public class DateConverter implements Converter<String, Date> {

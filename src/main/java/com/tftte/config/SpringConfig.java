@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 /**
  * @Author: tftte
  * @Date: 2020/6/14 21:16
- * @Description:
+ * @Description: Spring相关配置
  */
 @Configuration
 @ComponentScan(basePackages = "com.tftte", excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Controller.class))
