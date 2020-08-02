@@ -124,7 +124,7 @@
             var date = $("#dataDate").val();
             var data = {};
             data.date = date;
-            data.array = dataArray;
+            data.list = dataArray;
             //
             $.ajax({
                 url: "${pageContext.request.contextPath}/epidemicData/ajax/input",

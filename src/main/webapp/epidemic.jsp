@@ -160,20 +160,20 @@
                 visualMap: {
                     type: 'piecewise',
                     min: 0,
-                    max: 10000,
+                    max: 1000,
                     splitList:
                         [{
-                            start: 1000,
-                            end: 10000
-                        }, {
-                            start: 500,
+                            start: 100,
                             end: 1000
                         }, {
-                            start: 100,
-                            end: 500
-                        }, {
-                            start: 0,
+                            start: 50,
                             end: 100
+                        }, {
+                            start: 10,
+                            end: 50
+                        }, {
+                            start: 1,
+                            end: 10
                         }],
                     textStyle:
                         {
@@ -212,7 +212,7 @@
             });
         };
         //发送请求获取最新疫情数据
-        $.get("${pageContext.request.contextPath}/epidemicData/ajax/lastestData", {}, function (resp) {
+        $.get("${pageContext.request.contextPath}/epidemicData/ajax/latestData", {}, function (resp) {
             if (resp.code < 0) {
                 alert(resp.msg);
             } else {
